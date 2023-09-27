@@ -16,21 +16,13 @@ section{
     background-color: rgb(211, 163, 105);
     font-size: larger;
     
+    
 }
 .container{
     width: 80%;
     margin: 50px;
 }
 
-.contact-box{
-    background: #fff;
-    display: flex;
-}
-
-.contact-left{
-    flex-basis: 60%;
-    padding: 40px 60px;
-}
 .contact-right{
     flex-basis: 40%;
     padding: 40px;
@@ -41,7 +33,7 @@ h1{
     margin-bottom: 10px;
 }
 .container p{
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 a :hover{
     background-color: yellow
@@ -65,10 +57,47 @@ button{
     
 }
 .contact-left h3{
+    flex-basis: 60%;
+    padding: 40px 60px;
     color: #1c00b5;
     font-weight: 600;
     margin-bottom: 30px;
 }
 button:hover{
     cursor: pointer;
+}
+
+
+
+
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+}
+
+@media all and (max-width: 500px) {
+    body {
+        color: blue ;
+    }
+}
+@media (orientation: landscape) {
+    .titie{
+        color: greenyellow
+    }
 }
