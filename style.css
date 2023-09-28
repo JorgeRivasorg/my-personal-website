@@ -101,3 +101,9 @@ input{
         color: greenyellow
     }
 }
+.body {
+    height: 40%;
+    width: 20%;
+    background-color: rgb(45, 45, 45);
+  }
+
